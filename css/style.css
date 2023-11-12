@@ -358,13 +358,14 @@ section {
 }
 
 .menu .box-conteiner .box {
-  padding: 5rem;
+  padding: 2rem;
   text-align: center;
   border: var(--border);
 }
 
 .menu .box-conteiner .box img {
-  object-fit: fill;
+  width: 300px;
+  height: 400px;
 }
 
 .menu .box-conteiner .box h3 {
@@ -383,11 +384,10 @@ section {
   background: #fff;
 } */
 
-.menu .box-conteiner .nt1:hover {
-  background: url('../img/Kirtasiye-Spirali.jpeg');
+.menu .box-conteiner .box:hover {
   transform: scale(1.02);
 }
-.menu .box-conteiner .nt2:hover {
+/* .menu .box-conteiner .nt2:hover {
   background: url('../img/Kirtasiye-Spirali.jpeg');
   transform: scale(1.02);
 }
@@ -406,7 +406,7 @@ section {
 .menu .box-conteiner .nt6:hover {
   background: url('../img/Kirtasiye-Spirali.jpeg');
   transform: scale(1.02);
-}
+} */
 
 .menu .box-conteiner .box:hover > * {
   color: var(--black);
