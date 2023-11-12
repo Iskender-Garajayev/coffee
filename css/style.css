@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100&display=swap');
 
 :root {
-  --main-color: #d3ad7f;
+  --main-color: #678ffe;
   --black: #a3a3ae;
-  --bg: #ccccd4;
+  --bg: linear-gradient(to top, #cfd9df 0%, #e2ebf0 100%);
   --border: 0.3rem solid rgba(19, 16, 16, 0.3);
 }
 
@@ -364,7 +364,7 @@ section {
 }
 
 .menu .box-conteiner .box img {
-  height: 10rem;
+  object-fit: fill;
 }
 
 .menu .box-conteiner .box h3 {
@@ -373,20 +373,39 @@ section {
   padding: 1rem 0;
 }
 
-.menu .box-conteiner .box .price {
-  color: #fff;
-  font-size: 2.5rem;
-  padding: 5rem 0;
-}
-
 .menu .box-conteiner .box .price span {
   font-size: 1.5rem;
   text-decoration: line-through;
   font-weight: lighter;
 }
 
-.menu .box-conteiner .box:hover {
+/* .menu .box-conteiner .box:hover {
   background: #fff;
+} */
+
+.menu .box-conteiner .nt1:hover {
+  background: url('../img/Kirtasiye-Spirali.jpeg');
+  transform: scale(1.02);
+}
+.menu .box-conteiner .nt2:hover {
+  background: url('../img/Kirtasiye-Spirali.jpeg');
+  transform: scale(1.02);
+}
+.menu .box-conteiner .nt3:hover {
+  background: url('../img/Kirtasiye-Spirali.jpeg');
+  transform: scale(1.02);
+}
+.menu .box-conteiner .nt4:hover {
+  background: url('../img/Kirtasiye-Spirali.jpeg');
+  transform: scale(1.02);
+}
+.menu .box-conteiner .nt5:hover {
+  background: url('../img/Kirtasiye-Spirali.jpeg');
+  transform: scale(1.02);
+}
+.menu .box-conteiner .nt6:hover {
+  background: url('../img/Kirtasiye-Spirali.jpeg');
+  transform: scale(1.02);
 }
 
 .menu .box-conteiner .box:hover > * {
@@ -425,6 +444,8 @@ section {
 
 .products .box-container .box .image img {
   height: 25rem;
+  width: 36rem;
+  object-fit: contain;
 }
 
 .products .box-container .box .content h3 {
