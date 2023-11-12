@@ -270,20 +270,22 @@ section {
   }
 }
 
-@media (max-width: 450) {
+@media (max-width: 320px) {
   html {
     font-size: 50%;
   }
+}
+
+@media (min-width: 320px) and (max-width: 420px) {
   .whatsapp .whatsapp-link img {
     width: 30px;
     height: 30px;
 
     /* position: fixed; */
   }
-
   div.whatsapp {
-    bottom: 30px;
-    left: 30px;
+    bottom: 10px;
+    left: 10px;
     /* margin-top: 100px; */
     position: fixed;
   }
