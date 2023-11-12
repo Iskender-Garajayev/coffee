@@ -274,9 +274,6 @@ section {
   html {
     font-size: 50%;
   }
-}
-
-@media (min-width: 320px) and (max-width: 420px) {
   .whatsapp .whatsapp-link img {
     width: 30px;
     height: 30px;
@@ -289,7 +286,14 @@ section {
     /* margin-top: 100px; */
     position: fixed;
   }
+
+  .header a {
+    width: 50%;
+  }
 }
+
+/* @media (min-width: 320px) and (max-width: 420px) {
+} */
 /* home */
 
 .home {
