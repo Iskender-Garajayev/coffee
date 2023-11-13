@@ -677,7 +677,7 @@ section {
 
 div.whatsapp {
   bottom: 20px;
-  left: 20px;
+  right: 20px;
   /* margin-top: 100px; */
   position: fixed;
 }
