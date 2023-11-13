@@ -284,8 +284,9 @@ section {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), grey),
-    url('../img/home.png') no-repeat;
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), grey),
+    url('../img/home.png') no-repeat; */
+  background: red;
   background-size: cover;
   background-position: center;
 }
@@ -341,6 +342,20 @@ section {
 .about .row .content {
   flex: 1 1 45rem;
   padding: 2rem;
+  /* display: flex; */
+}
+
+.about .row .content ul li {
+  list-style-type: none;
+  color: #fff;
+  font-size: 20px;
+}
+.about .row .content ul {
+  gap: 20px;
+}
+
+.about .row .content {
+  padding-left: 60px;
 }
 
 .about .row .content h3 {
