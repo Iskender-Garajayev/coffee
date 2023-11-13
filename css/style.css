@@ -270,12 +270,12 @@ section {
   }
 }
 
-@media (max-width: 450) {
+@media (min-width: 320px) {
   html {
     font-size: 50%;
   }
   .header {
-    width: 80%;
+    width: 100%;
   }
 }
 /* home */
