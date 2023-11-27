@@ -286,7 +286,7 @@ section {
   align-items: center;
   /* background: linear-gradient(rgba(0, 0, 0, 0.5), grey),
     url('../img/home.png') no-repeat; */
-  background: red;
+  /* background: red; */
   background-size: cover;
   background-position: center;
 }
